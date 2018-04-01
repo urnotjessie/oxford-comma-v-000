@@ -8,4 +8,5 @@ def oxford_comma(array)
         last = array.pop
         array_to_string = array.join(", ")
         array_to_string << ", and #{last}"
+        return array_to_string
 end
